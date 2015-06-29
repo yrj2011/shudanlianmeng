@@ -1,0 +1,256 @@
+body h3{
+	padding:0;
+	padding-left:18px;
+	margin:10px 0;
+	font-size:14px;
+}
+
+
+#SpaceStatus{
+	float:right;
+	width:150px;
+	position:absolute;
+	right:0px;
+	top:-18px;
+}
+#SpaceStatusChart{
+	height:10px;
+	border:1px solid #AAA;
+}
+#SpaceStatusChart div{
+	margin:2px;
+	height:6px;
+	background-color:#09F;
+	line-height:1px;
+	font-size:1px;
+}
+
+
+
+.WarningMsg{
+	font-size:12px;
+	line-height:18px;
+	padding:5px 5px 5px 32px;
+	border:1px solid #FFBA00;
+	margin-bottom:15px;
+}
+.WarningMsg span{
+color:#D63004;font-weight:bold;
+}
+
+#WarningBox {
+	margin:40px 0;}
+
+.Succeed{
+	padding-bottom:100px;}
+
+#WarningBox ul{
+	padding:5px 0 0 60px;
+	margin:0;
+	list-style-type:none;
+}
+#WarningBox li{
+	text-indent:8px;
+	line-height:22px;
+	font-size:14px;
+}
+#WarningBox .Title1{
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:10px;
+	text-indent:0;
+}
+
+
+#TopBox{
+	background-color:#f6f6f6;
+	border-top:1px #DFDFDF solid;
+	padding:8px;
+}
+
+
+#TableListBox{
+	position:relative;
+}
+#TableListBox table{
+	border-top:none;
+}
+
+#TableListBox th{
+	background:#f6f6f6;
+	height:35px;
+	border-top:1px #DFDFDF solid;
+	padding-left:8px;
+	font-weight:normal;
+}
+#TableListBox th span{
+	color:#CCCCCC;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:9px;
+}
+#TableListBox .Thh{
+	padding:8px;
+	vertical-align:middle;
+	line-height:16px;
+	font-weight:bold;
+}
+#TableListBox .Fajian{
+	padding-top:4px;
+	height:16px;
+	width:605px;
+	word-break:break-all;
+}
+#TableListBox td{
+	border-top:#f1f1f1 1px solid;
+	padding:5px;
+	height:25px;
+}
+#TableListBox .P8{
+	font-size:14px;
+	padding:8px;
+	line-height:19px;
+	width:605px;
+	word-break:break-all;
+}
+#TableListBox .w{
+	border-top:3px #CCCCCC solid;
+	background-color:#F6F6F6;
+	padding:3px;
+}
+
+.PageChanger{
+	height:20px;
+	line-height:20px;
+	text-align:right;
+	margin-top:3px;
+}
+.PageChanger img{
+	vertical-align:-3px;
+}
+.PageChanger input{
+	border:1px solid #AAA;
+	background-color:#FFF;
+	margin:0 2px;
+}
+/*IE5 Crack*/
+.PageChanger input{
+	height:16px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	height:12px;
+}
+
+.PageButton{
+	float:left;
+	margin-left:3px;
+	width:180px;
+}
+#PageChangerTop{
+	float:right;
+	width:350px;
+}
+#NewMail{
+	position:relative;
+	width:108px;
+	height:36px;
+}
+#NewMail a{
+	position:absolute;
+	width:108px;
+	height:36px;
+	top:2px;
+	left:-295px;
+	text-indent:-9999px;
+	text-decoration:none;
+	background-image:url(../img/xin_img.jpg);
+}
+
+
+#ImportBox{
+}
+#ImportBox td{
+	padding:5px 0;
+	height:24px;
+}
+#ImportBox .Su{
+	width:10%;
+	text-align:right;
+}
+#ImportBox .Su1{
+	width:90%;
+}
+
+/* Promotion and Ad. In Mail Detail Page */
+#SiteMailProAndAd{
+margin-top:10px;
+	padding-top:10px;
+	border-top:1px #CCC solid;
+}
+#SiteMailProAndAd h4{
+	font-size:13px;
+	text-indent:10px;
+	margin-bottom:0;
+	color:#FF5A00;
+}
+#SiteMailPromotion h4{
+	color:#006CFF;
+}
+#SiteMailProAndAd ul{
+	margin:5px 0 0 15px;
+	padding:0;
+}
+#SiteMailProAndAd li{
+	width:100%;
+	height:1.5em;
+	overflow:hidden;
+	list-style:none;
+	text-indent:15px;
+}
+#SiteMailProAndAd a:link,#SiteMailProAndAd a:visited{
+	color:#04d;
+	text-decoration:underline;
+}
+#SiteMailProAndAd a:hover,#SiteMailProAndAd a:active{
+	color:#F50;
+	text-decoration:underline;
+}
+#SiteMailAd,#SiteMailPromotion{
+	width:46%;
+	float:left;
+}
+#SiteMailPromotion{
+	float:right;
+}
+
+
+/*PrivateMsgTab*/
+.private-msg-tab{
+	height:27px;
+	padding-left:20px;
+}
+.private-msg-tab li{
+	width:130px;
+	height:27px;
+	overflow:hidden;
+	float:left;
+	margin:0px 2px;
+	background:url(../images/private-msg-tab.gif) no-repeat 100% -33px;
+}
+.private-msg-tab li.selected{
+	background-position:0px -33px;
+	font-weight:bold;
+}
+.private-msg-tab a{
+	display:block;
+	text-align:center;
+	line-height:27px;
+}
+.private-msg-tab a:link, .private-msg-tab a:visited{
+	text-decoration:none;
+	color:#000;
+}
+.private-msg-tab a:hover, .private-msg-tab a:active{
+	text-decoration:none;
+	color:#000;
+}

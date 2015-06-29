@@ -1,0 +1,41 @@
+/* CSS Document */
+/*基础元素*/
+@charset "gb2312";
+html {font-family:Verdana, Arial, Helvetica, "宋体", sans-serif;font-size:12px;}
+h1, h2, h3, h4, h5, h6 {color: #000;font-weight: bold;}
+a {color: #313131;text-decoration:none;}
+a.s {color: #007ec0;}
+a:hover, a:focus {color:#0095ea;text-decoration: underline;}
+a:active {color:#007ec0;}
+
+/* content start */
+.clear {clear:both;}
+.clearfix {zoom: 1;}
+.clearfix:after {content: "\20"; display: block; clear: both;}
+
+/*主体框架代码*/	
+/*头部 */
+.quick-channel {background:url(../images/header-quick-bg.jpg) repeat-x; height:28px; line-height:25px; margin-bottom:21px;}
+.quick-channel p {width:960px; margin:0 auto; text-align:right; color:#868686;}
+.quick-channel p a {margin-left:5px; margin-right:5px; color:#585858;}
+
+.top {width:960px; margin:0 auto;}
+.top h1 a {display:block; float:left; text-indent:-8000px; background:url(../images/logo.jpg) no-repeat; width:159px; height:63px;}
+.top p {float:right; margin-bottom:30px;}
+
+.nav {width:960px; margin:0 auto;}
+.nav ul li {float:left; margin-right:17px;font-size:14px; font-family:微软雅黑; line-height:26px;}
+.nav ul li a {height:28px; display:block; padding-left:15px; float:left;}
+.nav ul li a em { height:28px; cursor:pointer; float:left; padding-right:15px;}
+.nav ul li.current a {background:url(../images/nav-bg-left.jpg) left no-repeat; height:28px; display:block; padding-left:15px; float:left; color:#fff;}
+.nav ul li.current a em {background:url(../images/nav-bg-right.jpg) right; height:28px; cursor:pointer; float:left; padding-right:15px;}
+.nav ul li a:hover {background:url(../images/nav-bg-left.jpg) left no-repeat; height:28px; display:block; padding-left:15px; float:left; color:#fff; text-decoration:none;}
+.nav ul li a:hover em {background:url(../images/nav-bg-right.jpg) right; height:28px; cursor:pointer; float:left; padding-right:15px;}
+
+/*main*/
+.main {width:960px; margin:0 auto;}
+
+/*footer*/
+.footer {border-top:#dcdcdc 1px solid; width:100%; margin:0 auto; padding-top:20px; padding-bottom:40px; background:#f9f9fa;}
+.footer p a {margin-left:5px; margin-right:5px;}
+.footer-margin {margin-top:30px;}

@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>找回密码-谷得网商互动平台</title>
+<meta name="keywords" content="谷得,谷得网,谷得平台" />
+<meta name="description" content="谷得网为一站式威客服务平台,为那些零信誉低销量的掌柜提供解决方案,新手变钻石打造爆款更简单,发任务提升信誉,接任务赚取佣金" />
+<LINK href="/images/favicon.ico" rel="SHORTCUT ICON">
+<meta name="chinaz-site-verification" content="081e7651-48c6-4c2f-a569-99321685eab1" />
+<link href="css/Newlayout.css" tppabs="http://www.17gude.com/platform/css/Newlayout.css" type="text/css" rel="stylesheet" />
+<link href="css/Newreset.css" tppabs="http://www.17gude.com/platform/css/Newreset.css" type="text/css" rel="stylesheet" />
+<link href="css/Newbase.css" tppabs="http://www.17gude.com/platform/css/Newbase.css" type="text/css" rel="stylesheet" />
+</head>
+
+<script src="js/ShowQQ.js" tppabs="http://www.17gude.com/platform/js/ShowQQ.js" language="javascript"></script>
+<script src="User/TaskNotice/js/TaskDialog.js" tppabs="http://www.17gude.com/platform/User/TaskNotice/js/TaskDialog.js" language="javascript"></script>
+<script language="JavaScript" type="text/javascript" src="nntcn_fun/js/Dialog.js" tppabs="http://www.17gude.com/platform/nntcn_fun/js/Dialog.js"></script>
+<script src="../js/jquery.min.js" tppabs="http://www.17gude.com/js/jquery.min.js"></script>
+    <SCRIPT type=text/javascript>  
+ function zOpenQQ(){
+    var diag = new Dialog("Diag22");   
+    diag.Width = 800;   
+    diag.Height = 500;   
+    diag.Title = "谷得网 - 新手互动教学大厅";   
+    diag.URL = "service/qq.asp.htm"/*tpa=http://www.17gude.com/platform/service/qq.asp*/;   
+    diag.OKEvent = zAlert;//点击确定后调用的方法   
+    diag.showqq();   
+   
+}  
+function zOpenNewD(){   
+  
+    var diag = new Dialog("Diag2232");   
+    diag.Width = 600;   
+    diag.Height = 400;   
+    diag.Title = "谷得网 - 新手互动教学大厅";   
+    diag.URL = "User/TaskNotice/helpcenter.asp.htm"/*tpa=http://www.17gude.com/platform/User/TaskNotice/helpcenter.asp*/;   
+    diag.OKEvent = zAlert;//点击确定后调用的方法   
+    diag.show();   
+   
+}   
+function zAlert(){   
+        Dialog.alert("请点取消退出。");   
+}   
+$(document).ready(function(){
+    //吊顶导航下拉菜单
+    (function(){
+        var timer;
+        $('.QC-nav').find('.dropDown').hover(function(){
+            if(timer) { clearTimeout(timer);}
+            $(this).siblings().find('.dropMenu').slideUp(100);
+            $(this).find('.dropMenu').slideDown(150);
+        },function(){
+            timer = setTimeout(function(){
+                $('.dropMenu').slideUp(100);
+            },300)
+        });
+    })();
+
+
+
+});
+
+  </SCRIPT>
+
+<style>
+#sideBuoy { position: fixed; _position: absolute; z-index: 9; top: 205px; _top: expression(205+documentElement.scrollTop +"px"); left: 50%; width: 81px; height: 173px; margin-left: 500px; background: #82cbec url(/images1/sideBuoy-qq.jpg) no-repeat 0 30px;}
+.sideBuoy-jy { display: block; width: 100%; height: 30px; text-align: center; line-height: 30px;}
+.sideBuoy-qq { display: block; width: 100%; height: 112px;}
+.sideBuoy-top { display: block; width: 100%; height: 31px; text-align: center; line-height: 30px;}
+.sideBuoy-detail { display: none; position: absolute; left: -156px; top: 0; overflow: hidden; width: 156px; height: 173px; background: #ffeeda; text-align: center;}
+.sideBuoy-detail .qq-list { padding: 8px 0 10px;}
+.sideBuoy-detail .qq { height: 22px; padding: 5px 0; line-height: 22px;}
+.sideBuoy-detail .qq img { vertical-align: middle;}
+</style>
+<div id="sideBuoy">
+    <a class="sideBuoy-jy" href="/help/viewreturn.asp" tppabs="/help/viewreturn.asp" target="_blank">我有建议</a>
+    <a class="sideBuoy-qq" href="#"></a>
+    <a class="sideBuoy-top" href="#">返回顶部</a>
+    <div class="sideBuoy-detail">
+        <div class="qq-list" ID="qqAllList"><div class="qq">新手在线咨询</div>
+<div class="qq">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" valign="middle"> <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=859680966&site=qq&menu=yes"><img src="http://wpa.qq.com/pa?p=1:594224603:41"  border="0"  /><BR />859680966</A></td>
+  </tr>
+</table>
+</div>
+</div>
+<br/><br/><div class="service-time">工作时间：9:00~21:00<br>
+非工作时间请给我们留言
+</div>
+    </div>
+</div>
+<script>
+var flag,
+    timer;
+$('.sideBuoy-qq').hover(function(){
+    flag = false;
+    //createqq();
+    $('.sideBuoy-detail').show();
+},function(){
+    flag = true;
+    timer = setTimeout(function(){
+        if(flag){
+            $('.sideBuoy-detail').hide();
+        }
+    },200) 
+})
+$('.sideBuoy-detail').hover(function(){
+    flag = false;
+    $(this).show();
+},function(){
+    var $self = $(this);
+    flag = true;
+    timer = setTimeout(function(){
+        if(flag){
+            $self.hide();
+        }
+    },200) 
+})
+</script>
+    <!--footer end-->
+</body>
+</html>

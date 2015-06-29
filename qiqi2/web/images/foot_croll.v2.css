@@ -1,0 +1,11 @@
+@charset "utf-8";
+.foot_scroll {height:70px;width: 965px;overflow: hidden;padding:0px;margin:0px;color:#285080;text-align:left;font-size:12px;line-height:22px;position:relative}
+.foot_scroll_ul{padding:0px;margin:0px;position:absolute;width: 965px;}
+.foot_scroll_ul li{width:677px;height: 45px;margin:0px;background:url(foot_scroll_bg.jpg) no-repeat;padding-left:188px;padding-right:100px;padding-top:15px;padding-bottom:10px;}
+.foot_scroll_ul li span{width:617px;}
+.foot_scroll_ul li.b1{background-position:0 0;}
+.foot_scroll_ul li.b2{background-position:0 -85px;}
+.foot_scroll_ul li.b3{background-position:0 -167px;}
+.foot_scroll_ul li.b4{background-position:0 -248px;}
+.foot_scroll_ul li.b5{background-position:0 -330px;}
+.foot_scroll_ul li.b6{background-position:0 bottom;}

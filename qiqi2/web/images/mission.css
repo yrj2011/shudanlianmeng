@@ -1,0 +1,39 @@
+.shuazuan_anniu {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #006600
+}
+.shuazuan_anniu A:unknown {
+	COLOR: #006600; TEXT-DECORATION: none
+}
+.shuazuan_anniu A:visited {
+	COLOR: #006600
+}
+.shuazuan_anniu A:hover {
+	COLOR: #000099
+}
+.mission {
+	WIDTH: 100%
+}
+.mission LI {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; COLOR: #006600; TEXT-ALIGN: center
+}
+.missionitem {
+	WIDTH: 100%
+}
+.missionitem LI {
+	FLOAT: left; LIST-STYLE-TYPE: none; TEXT-ALIGN: center
+}
+.pushmission {
+	WIDTH: 100%
+}
+.pushmission SPAN {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FLOAT: left; WIDTH: 200px; PADDING-TOP: 3px; TEXT-ALIGN: right
+}
+.pushmissionleft {
+	FONT-WEIGHT: bolder; FLOAT: left; WIDTH: 200px; LINE-HEIGHT: 25px; HEIGHT: 25px; TEXT-ALIGN: right
+}
+.pushmissionright {
+	FLOAT: left; WIDTH: 700px; LINE-HEIGHT: 25px; HEIGHT: 25px
+}
+.pushmission LI {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; COLOR: #666666; PADDING-TOP: 5px; LIST-STYLE-TYPE: none
+}

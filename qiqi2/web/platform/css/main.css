@@ -1,0 +1,162 @@
+/***************************************************
+ 布局: g-
+****************************************************/
+/* 960布局容器 */
+.g-layout,.xf-layout { width: 960px; margin-left: auto; margin-right: auto;}
+.g-layout:before,.g-layout:after,.xf-layout:after { display: table; clear: both; content: '';}
+
+
+/***************************************************
+ 辅助排版原子类: a-
+****************************************************/
+.a-fl,.a-fr { display: inline;}.a-fl { float: left;}.a-fr { float: right;}
+.a-clear { display: block; overflow: hidden; clear: both; width: 100%; height: 0; font-size: 0; line-height: 0;}
+.a-relative,.xf-pos { position: relative;}
+.a-absolute { position: absolute;}
+.a-fixed-top { position:fixed; _position:absolute; left: 50%; top: 0; _top:expression(eval(document.documentElement.scrollTop));}
+.a-fixed-bottom { position: fixed; _position:absolute; left: 50%; bottom: 0px; _bottom: auto; _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));}
+.a-clear { clear: both;}
+.a-ml{margin-left:10px;}
+.a-mr{margin-right:10px;}
+.a-mt{margin-top:10px;}
+.a-mb{margin-bottom:10px;}.a-mb15 { margin-bottom: 15px;}
+.a-mtauto {margin-left:auto;}
+.a-mrauto {margin-left:auto;}
+.a-mbauto {margin-left:auto;}
+.a-mlauto {margin-left:auto;}
+.a-pl{ padding-left: 10px;}
+.a-pr{padding-right:10px;}
+.a-pt{padding-top:10px;}
+.a-pb{padding-bottom:10px;}
+
+
+/***************************************************
+ 显示行为: s-
+****************************************************/
+body .s-hide { display: none;}
+
+.s-dib-box { font-size: 0; *word-spacing: -1px;}
+.s-dib-box .s-dib { font-size: 12px; letter-spacing: normal; word-spacing: normal;}
+@media screen and (-webkit-min-device-pixel-ratio:0){ .s-dib-box { letter-spacing:-5px;}/* 低版safari不支持0px字体，此处5px根据继承自body的12px的tahoma得来 */}
+.s-dib { display: inline-block; *display:inline; *zoom:1; vertical-align: top;}
+
+
+/***************************************************
+ 显示效果: e-
+****************************************************/
+/* hover半透明 */
+.e-hoverfade {}
+.e-hoverfade:hover { zoom: 1; opacity: .8; filter:alpha(opacity=80);}
+/* 溢出省略号 */
+.e-ell { overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+
+
+/***************************************************
+ 文字控制: f-
+****************************************************/
+/* 右箭头字体 */
+.f-arr { font-weight: 500; font-family: Monaco,monospace,'Lucida Grande','Zapf Dingbats',Charcoal,Geneva;}
+.f-ss { font-family: Helvetica, Arial, \5fae\8f6f\96c5\9ed1, sans-serif;}
+.f-s { font-family: 'Times New Roman', Times, serif;}
+.f-700 { font-weight: 700;}
+.f-500 { font-weight: 500;}
+
+
+/***************************************************
+ 组件库: ui-
+****************************************************/
+/* FORM */
+.ui-form { display: block; zoom: 1;}
+.ui-form-item { display: block; zoom: 1; padding: 0 0 15px 100px; font-size: 0; line-height: 30px;}
+.ui-form:before, .ui-form:after, .ui-form-item:before, .ui-form-item:after { display: table; clear: both; content: '';}
+.ui-form-label,.ui-form-input,.ui-form-check,.ui-form-check-label,.ui-form-radio,.ui-form-radio-label,.ui-form-select,.ui-form-textarea,.ui-form-button,.ui-form-submit,.ui-form-msg,.ui-form-text { display: inline-block; *display: inline; *zoom: 1; overflow: hidden; margin-right: 3px; font-size: 12px; vertical-align: top;}
+.ui-form-label { height: 30px; line-height: 30px;}
+.ui-form-input { height: 14px; padding: 7px 9px; border: 1px solid #ccc; background: #fff; line-height: 14px;}
+.ui-form-input:focus { background: #f8f8f8; outline: 0;}
+.ui-form-check { position: relative; top: 8px; *top: 3px; _top: 4px;}
+.ui-form-check-label { height: 30px; line-height: 30px; margin-right: 7px;}
+.ui-form-radio { position: relative; top: 8px; *top: 3px; _top: 4px;}
+.ui-form-radio-label { height: 30px; line-height: 30px; margin-right: 7px;}
+.ui-form-select { height: 30px; line-height: 30px;}
+.ui-form-textarea { border: 1px solid #ccc; padding: 5px;}
+.ui-form-button { height: 28px; margin: 0; padding: 0 9px; border: 1px solid #0685c8; background: #0685c8; line-height: 30px; color: #fff; cursor: pointer;}
+button.ui-form-button,input.ui-form-button { *overflow: visible; *width: auto; _width: 0; height: 30px; line-height: normal;}
+.ui-form-button:hover,button.ui-form-button:hover,input.ui-form-button:hover { border-color: #1d9adc; background: #1d9adc; text-decoration: none; color: #fff;}
+.ui-form-msg {  height: 20px; padding: 5px 0; line-height: 20px;}
+.ui-form-text { height: 20px; padding: 5px 0; line-height: 20px;}
+
+.ui-button-skin-orange,button.ui-button-skin-orange,input.ui-button-skin-orange { border: 1px solid #f85d00; background: #f85d00; color: #fff;}
+.ui-button-skin-orange:hover,button.ui-button-skin-orange:hover,input.ui-button-skin-orange:hover { border: 1px solid #f85d00; background: #ff711b; color: #fff;}
+.ui-button-skin-black,button.ui-button-skin-black,input.ui-button-skin-black { border: 1px solid #464646; background: #464646; color: #fff;}
+.ui-button-skin-black:hover,button.ui-button-skin-black:hover,input.ui-button-skin-black:hover { border: 1px solid #464646; background: #545454; color: #fff;}
+
+
+
+
+/***************************************************
+ 页面
+****************************************************/
+
+/* guide 指引页面 */
+.guide-floor { width: 960px; margin: 0 auto; background: url("../images_new/guide/floor.png"/*tpa=http://www.17gude.com/platform/images_new/guide/floor.png*/) repeat-y -1920px 0;}
+.guide-floor-tp, .guide-floor-bt { display: block; overflow: hidden; width: 100%; height: 110px; background: url("../images_new/guide/floor.png"/*tpa=http://www.17gude.com/platform/images_new/guide/floor.png*/) no-repeat;}
+.guide-floor-tp { background-position: 0 0;}
+.guide-floor-bt { background-position: -960px 0;}
+.guide-floor-bd { width: 880px; margin: -50px auto 0; min-height: 50px;}
+.guide-floor-title { padding: 1px 0 30px; text-align: center;}
+.guide-floor-title .tit { font: 700 30px/1.5 Arial,微软雅黑; color: #000;}
+
+/* 常见问题 */
+.guide-faq { overflow: hidden; width: 100%;}
+.guide-faq-c1 { overflow: hidden; float: left; width: 425px;}
+.guide-faq-c2 { overflow: hidden; float: right; width: 425px;}
+.guide-faq h3 { margin-bottom: 20px; padding-left: 30px; font: 20px/22px Arial,微软雅黑;}
+.guide-faq-c1 h3 { background: url("../images_new/guide/guide-faq-c1-ico.png"/*tpa=http://www.17gude.com/platform/images_new/guide/guide-faq-c1-ico.png*/) no-repeat; color: #850000;}
+.guide-faq-c2 h3 { background: url("../images_new/guide/guide-faq-c2-ico.png"/*tpa=http://www.17gude.com/platform/images_new/guide/guide-faq-c2-ico.png*/) no-repeat; color: #007410;}
+.guide-faq-list li { margin-bottom: 15px;}
+.guide-faq-list li .tit { height: 22px; padding-left: 45px; background: url("../images_new/guide/guide-faq-item-ico.png"/*tpa=http://www.17gude.com/platform/images_new/guide/guide-faq-item-ico.png*/) no-repeat 15px center; font: 16px/22px Arial,微软雅黑; color: #625b49; cursor: default;}
+.guide-faq-list li.on .tit { background-image: url("../images_new/guide/guide-faq-item-ico2.png"/*tpa=http://www.17gude.com/platform/images_new/guide/guide-faq-item-ico2.png*/); color: #fd7916;}
+.guide-faq-list li .cnt { display: none; position: relative; margin: 15px 0 30px; padding: 15px; border: 1px solid #e5d3aa; background: #efdeb3; line-height: 24px; color: #575040;}
+.guide-faq-list li .cnt .arr1, .guide-faq-list li .cnt .arr2 { display: block; overflow: hidden; position: absolute; left: 13px; width: 0; height: 0; border: 10px dashed transparent; border-top: 0;}
+.guide-faq-list li .cnt .arr1 { top: -10px; border-bottom: 10px solid #e5d3aa;}
+.guide-faq-list li .cnt .arr2 { top: -8px; border-bottom: 10px solid #efdeb3;}
+
+/* 名词术语 */
+.guide-shuyu { overflow: hidden; width: 100%;}
+.guide-shuyu table { width: 100%; table-layout: fixed; line-height: 1.8;}
+.guide-shuyu th { padding: 10px 5px; border: 1px solid #fdebbd; background: #f55c00; text-align: center; color: #fff;}
+.guide-shuyu td { padding: 10px 15px; border: 1px solid #fdebbd; background: #f9a35e; text-align: left; color: #fff;}
+.guide-shuyu .r1 th { background: #3c3c3c; font-weight: 700;}
+.guide-shuyu .r1 td { background: #b8af98; text-align: center;}
+
+
+/* 登陆页面 */
+.signin { float: left; width: 370px; padding-left: 10px; padding-top: 50px; padding-bottom: 50px;}
+.signup { float: right; width: 370px; padding-right: 30px; padding-top: 50px; padding-bottom: 50px;}
+.signin h2,.signup h2 { margin-bottom: 60px; font: 35px/1.5 Arial,微软雅黑,宋体; color: #333;}
+.signin h3,.signup h3 { margin: 10px 0; font: 20px/1.5 Arial,微软雅黑,宋体;}
+.signin h3 { color: #f85d00;}
+.signup h3 { color: #ed051b;}
+.signin p,.signup p { margin: 10px 0; color: #666;}
+.signin .ui-form { margin: 30px 0 0; padding-top: 35px; border-top: 1px dotted #ebebeb;}
+.signin .ui-form-label { _display: inline; position: relative; float: left; width: 85px; height: 33px; margin-left: -100px; padding-right: 15px; line-height: 33px; text-align: right; color: #666;}
+.signin .ui-form-input { overflow: hidden; margin-right: 10px; padding: 9px 10px 10px 10px; border: 0; background: #efefef; font: 12px/14px Arial,宋体,sans-serif; color: #333;}
+.signin .ui-form-check { position: relative; top: 10px; *top: 5px; margin-right: 3px;}
+.signin .ui-form-check-label { margin-right: 10px; font-size: 12px; line-height: 33px; color: #5c5c5c;}
+.signin .ui-form-text { color: #5c5c5c;}
+.signin .ui-form-button { background: #}
+.signup .act { padding: 10px 0 25px;}
+.signup .pt { padding-top: 10px; border-top: 1px dotted #ebebeb;line-height:28px;color:#666;}
+.signup .pt strong { margin-right: 20px;}
+.signbot-faq { overflow: hidden; height: 65px; line-height: 65px; background: #f7f7f7; color: #464646;}
+.signbot-faq h2 { float: left; width: 170px; height: 100%; background: #efefef; font: 18px/65px Arial,微软雅黑; text-align: center;}
+.signbot-faq ul { float: left; width: 790px; height: 100%;}
+.signbot-faq li { overflow: hidden; float: left; width: 210px; height: 100%; padding-left: 50px; background: url("../images_new/list-icon.png"/*tpa=http://www.17gude.com/platform/images_new/list-icon.png*/) no-repeat 40px center;}
+.sibnbot-banner { margin-bottom: 50px; background: #f3ecdc;}
+
+
+
+
+
+
+

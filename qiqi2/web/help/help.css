@@ -1,0 +1,63 @@
+BODY {
+	FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: "ËÎÌו", sans-serif, Arial
+}
+.nav {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(images/nav_bg.gif) repeat-x; COLOR: #ffffff
+}
+.nav A {
+	COLOR: #ffffff
+}
+.nav A:hover {
+	COLOR: #ffffff
+}
+.nav_01 {
+	BACKGROUND-IMAGE: url(images/nav_01.gif); BACKGROUND-REPEAT: no-repeat; TEXT-ALIGN: center
+}
+.nav_02 {
+	BACKGROUND-IMAGE: url(images/nav_02.gif);  BACKGROUND-REPEAT: no-repeat; TEXT-ALIGN: center
+}
+.newm_01 {
+	BACKGROUND-POSITION: center 50%; BACKGROUND-IMAGE: url(images/newm_01.gif); BACKGROUND-REPEAT: no-repeat
+}
+.newm_02 {
+	BACKGROUND-POSITION: center 50%; BACKGROUND-IMAGE: url(images/newm_02.gif); BACKGROUND-REPEAT: no-repeat
+}
+.newm_bg {
+	BACKGROUND-POSITION: center 50%; BACKGROUND-IMAGE: url(images/newm_bg.gif); BACKGROUND-REPEAT: repeat-y
+}
+.content_01 {
+	BACKGROUND-POSITION: center 50%; BACKGROUND-IMAGE: url(images/content_01.gif); BACKGROUND-REPEAT: no-repeat
+}
+.content_02 {
+	BACKGROUND-POSITION: center 50%; BACKGROUND-IMAGE: url(images/content_02.gif); BACKGROUND-REPEAT: no-repeat
+}
+.content_bg {
+	BACKGROUND-POSITION: center 50%; BACKGROUND-IMAGE: url(images/content_bg.gif); BACKGROUND-REPEAT: repeat-y
+}
+.orange14b {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ff6600
+}
+.content_header {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #0493c3
+}
+.blue {
+	COLOR: #0493c3; TEXT-DECORATION: none
+}
+.blue A {
+	COLOR: #0493c3; TEXT-DECORATION: none
+}
+.blue A:hover {
+	COLOR: #ff6600
+}
+.content {
+	LINE-HEIGHT: 40px
+}
+.qa_bg {
+	BACKGROUND-POSITION: center top; BACKGROUND-IMAGE: url(images/qa_bg.gif); LINE-HEIGHT: 22px; BACKGROUND-REPEAT: no-repeat
+}
+.dash {
+	BORDER-BOTTOM: #cccccc 1px dashed
+}
+.14hao {
+	FONT-SIZE: 14px
+}

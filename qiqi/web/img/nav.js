@@ -1,0 +1,21 @@
+document.writeln("<div class=\"csd_nav\">");
+document.writeln("	<div class=\"csd_topzo\">");
+document.writeln("		<ul class=\"csd_navul\">");
+document.writeln("			<li><a href=\"index.html\">首页<\/a><\/li>");
+document.writeln("			<li><img src=\"images\/5.gif\"\/><\/li>");
+document.writeln("			<li><a href=\"http:\/\/t.csd198.com\/\">互动联盟<\/a><\/li>");
+document.writeln("			<li><img src=\"images\/5.gif\"\/><\/li>");
+document.writeln("			<li><a href=\"http:\/\/vip.csd198.com\/\">至尊VIP<\/a><\/li>");
+document.writeln("			<li><img src=\"images\/5.gif\"\/><\/li>");
+document.writeln("			<li><a href=\"operation.html\">操作流程<\/a><\/li>");
+document.writeln("			<li><img src=\"images\/5.gif\"\/><\/li>");
+document.writeln("			<li><a href=\"payment.html\">付款方式<\/a><\/li>");
+document.writeln("			<li><img src=\"images\/5.gif\"\/><\/li>");
+document.writeln("			<li><a href=\"service.html\">客服中心<\/a><\/li>");
+document.writeln("			<li><img src=\"images\/5.gif\"\/><\/li>");
+document.writeln("			<li><a href=\"issue.html\">问题答疑<\/a><\/li>");
+document.writeln("			<li><img src=\"images\/5.gif\"\/><\/li>");
+document.writeln("			<li><a href=\"about.html\">关于我们<\/a><\/li>");
+document.writeln("		<\/ul>");
+document.writeln("	<\/div>");
+document.writeln("<\/div>")

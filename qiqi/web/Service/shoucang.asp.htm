@@ -1,0 +1,358 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="GB2312">
+<title>人气收藏-谷得网商互动平台</title>
+<meta name="keywords" content="谷得,谷得网,谷得平台" />
+<meta name="description" content="谷得网为一站式威客服务平台,为那些零信誉低销量的掌柜提供解决方案,新手变钻石打造爆款更简单,发任务提升信誉,接任务赚取佣金" />
+<link href="../platform/css/Newlayout.css" tppabs="http://www.17gude.com/platform/css/Newlayout.css" type="text/css" rel="stylesheet" />
+<link href="../platform/css/Newreset.css" tppabs="http://www.17gude.com/platform/css/Newreset.css" type="text/css" rel="stylesheet" />
+<link href="../platform/css/Newbase.css" tppabs="http://www.17gude.com/platform/css/Newbase.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="css/main.css" tppabs="http://www.17gude.com/Service/css/main.css" />
+<script src="js/jquery-1.7.2.min.js" tppabs="http://www.17gude.com/Service/js/jquery-1.7.2.min.js"></script>
+<script src="js/kissy-min.js" tppabs="http://www.17gude.com/Service/js/kissy-min.js"></script>
+<script src="js/main.js" tppabs="http://www.17gude.com/Service/js/main.js"></script>
+<script src="../platform/js/ShowQQ.js" tppabs="http://www.17gude.com/platform/js/ShowQQ.js" language="javascript"></script>
+ <SCRIPT type=text/javascript>  
+ function zOpenQQ(){
+    var diag = new Dialog("Diag22");   
+    diag.Width = 800;   
+    diag.Height = 500;   
+    diag.Title = "谷得网 - 新手互动教学大厅";   
+    diag.URL = "../platform/service/qq.asp.htm"/*tpa=http://www.17gude.com/platform/service/qq.asp*/;   
+    diag.OKEvent = zAlert;//点击确定后调用的方法   
+    diag.showqq();   
+   
+}  
+function zOpenNewD(){   
+  
+    var diag = new Dialog("Diag2232");   
+    diag.Width = 600;   
+    diag.Height = 400;   
+    diag.Title = "谷得网 - 新手互动教学大厅";   
+    diag.URL = "../platform/User/TaskNotice/helpcenter.asp.htm"/*tpa=http://www.17gude.com/platform/User/TaskNotice/helpcenter.asp*/;   
+    diag.OKEvent = zAlert;//点击确定后调用的方法   
+    diag.show();   
+   
+}   
+function zAlert(){   
+        Dialog.alert("请点取消退出。");   
+}   
+$(document).ready(function(){
+    //吊顶导航下拉菜单
+    (function(){
+        var timer;
+        $('.QC-nav').find('.dropDown').hover(function(){
+            if(timer) { clearTimeout(timer);}
+            $(this).siblings().find('.dropMenu').slideUp(100);
+            $(this).find('.dropMenu').slideDown(150);
+        },function(){
+            timer = setTimeout(function(){
+                $('.dropMenu').slideUp(100);
+            },300)
+        });
+    })();
+
+
+
+});
+
+  </SCRIPT>
+</head>
+<body>
+<style>
+.xf-layout { width: 960px; margin-left: auto; margin-right: auto;}
+.xf-layout:after { display: table; clear: both; content: '';}
+.xf-group { zoom: 1;}
+.xf-group:before,.xf-group:after { display: table; content: '';}
+.xf-group:after { clear: both;}
+.xf-pos { position: relative;}
+/* 吊顶 font-weight: 700; */
+.quick-channelOk { position: relative; z-index: 9; width: 100%; height: 38px; background: #f4f4f5 url("../images/U_user-quick-channel-bg.png"/*tpa=http://www.17gude.com/images/U_user-quick-channel-bg.png*/) repeat-x; line-height: 33px; color: #555;}
+.quick-channelOk .QC-kefu { float: left; margin-right: 15px; padding-top: 7px;}
+.quick-channelOk .QC-kefu a { overflow: hidden; float: left; height: 21px; padding-left: 27px; background: url("../images/U_QC-kefu-icon.png"/*tpa=http://www.17gude.com/images/U_QC-kefu-icon.png*/) no-repeat; line-height: 21px; color: #007eb8;}
+.quick-channelOk .QC-user { top:15px;}
+.quick-channelOk .QC-user em { margin-right: 5px;font-weight: 700; color: #d82900;}
+.quick-channelOk .QC-user a { color: #007eb8;}
+.quick-channelOk .QC-nav { position: absolute; right: 0; top: 1px; height: 33px;}
+.quick-channelOk .QC-nav:after { display: table; clear: both; content: '';}
+.quick-channelOk .QC-nav li { display: inline; position: relative; float: left; height: 33px; margin-left: 15px;}
+.quick-channelOk .QC-nav a { color: #585858;}
+.quick-channelOk .QC-nav a:hover { color: #0095ea;}
+.quick-channelOk .QC-nav .dropMenu { display: none; position: absolute; left: -10px; top: 33px; padding: 0 15px 10px; border: 1px solid #bcbcbc; border-top: none; background: #efeff2;}
+.quick-channelOk .QC-nav .dropMenu span { display: block; width: 70px; height: 26px; white-space: nowrap; line-height: 26px; text-overflow: ellipsis;}
+.quick-channelOk .QC-nav .dropMenu a:hover { text-decoration: none; color: #fc5900;}
+</style>
+    	<div class="quick-channelOk">
+        	<script src="../platform/ShowMyInfo.asp-ID=" tppabs="http://www.17gude.com/platform/ShowMyInfo.asp?ID=" type="text/javascript"></script>
+        </div>
+<div id="p-header">
+    <div class="g-layout a-relative">
+         <div id="p-logo"><a href="../index.htm" tppabs="http://www.17gude.com/"><img src="img/logo.png" tppabs="http://www.17gude.com/Service/img/logo.png" alt="谷得网"/><b></b></a></div>
+        <div id="p-header-search">
+            <input class="header-search-input" type="text" value="搜索服务"/>
+            <button type="submit">搜索</button>
+        </div>
+        <div id="p-header-act">
+            <a class="btn-cz" href="javascript:if(confirm('http://www.17gude.com/platform/User/chong.asp  \n\n该文件未被 Teleport Pro 下载，因为 该文件不可用或下载已被中止，或该工程已被停止。  \n\n你想要从服务器打开它吗?'))window.location='http://www.17gude.com/platform/User/chong.asp'" tppabs="http://www.17gude.com/platform/User/chong.asp" target="_blank">账户充值</a>
+        </div>
+        <div id="p-header-nav">
+            <div id="p-drop-nav">
+                <h2 id="p-drop-nav-tri">全部卖家服务</h2>
+                <ul id="p-drop-nav-menus">
+                <li><a href="tuoguan.asp.htm" tppabs="http://www.17gude.com/Service/tuoguan.asp">网店托管</a></li>
+                <li><a href="peixun.asp.htm" tppabs="http://www.17gude.com/Service/peixun.asp">网店培训</a></li>
+                <li><a href="javascript:if(confirm('http://www.17gude.com/Service/Video.asp  \n\n该文件未被 Teleport Pro 下载，因为 该文件不可用或下载已被中止，或该工程已被停止。  \n\n你想要从服务器打开它吗?'))window.location='http://www.17gude.com/Service/Video.asp'" tppabs="http://www.17gude.com/Service/Video.asp">视频教学</a></li>
+                <li><a href="javascript:if(confirm('http://www.17gude.com/Service/IP.asp  \n\n该文件未被 Teleport Pro 下载，因为 该文件不可用或下载已被中止，或该工程已被停止。  \n\n你想要从服务器打开它吗?'))window.location='http://www.17gude.com/Service/IP.asp'" tppabs="http://www.17gude.com/Service/IP.asp">站外流量</a></li>
+                <li><a href="javascript:if(confirm('http://www.17gude.com/Service/Shoucang.asp  \n\n该文件未被 Teleport Pro 下载，因为 该文件不可用或下载已被中止，或该工程已被停止。  \n\n你想要从服务器打开它吗?'))window.location='http://www.17gude.com/Service/Shoucang.asp'" tppabs="http://www.17gude.com/Service/Shoucang.asp">人气收藏</a></li>
+                <li><a href="javascript:if(confirm('http://www.17gude.com/Service/Kefu.asp  \n\n该文件未被 Teleport Pro 下载，因为 该文件不可用或下载已被中止，或该工程已被停止。  \n\n你想要从服务器打开它吗?'))window.location='http://www.17gude.com/Service/Kefu.asp'" tppabs="http://www.17gude.com/Service/Kefu.asp">客服外包</a></li>
+               <li><a href="javascript:if(confirm('http://www.17gude.com/Service/AllService.asp  \n\n该文件未被 Teleport Pro 下载，因为 该文件不可用或下载已被中止，或该工程已被停止。  \n\n你想要从服务器打开它吗?'))window.location='http://www.17gude.com/Service/AllService.asp'" tppabs="http://www.17gude.com/Service/AllService.asp">服务推荐</a></li>
+                </ul>
+            </div>
+            <ul class="nav">
+                <li class="current"><a href="../index.htm" tppabs="http://www.17gude.com/">网站首页</a></li>
+                <li><a href="index.htm" tppabs="http://www.17gude.com/Service/">卖家服务</a></li>
+                <li><a href="javascript:if(confirm('http://www.17gude.com/Service/AllService.asp  \n\n该文件未被 Teleport Pro 下载，因为 该文件不可用或下载已被中止，或该工程已被停止。  \n\n你想要从服务器打开它吗?'))window.location='http://www.17gude.com/Service/AllService.asp'" tppabs="http://www.17gude.com/Service/AllService.asp">推荐服务</a></li>
+                <li><a href="javascript:if(confirm('http://www.17gude.com/Service/Baobei.asp  \n\n该文件未被 Teleport Pro 下载，因为 该文件不可用或下载已被中止，或该工程已被停止。  \n\n你想要从服务器打开它吗?'))window.location='http://www.17gude.com/Service/Baobei.asp'" tppabs="http://www.17gude.com/Service/Baobei.asp">宝贝排名</a></li>
+                <li><a href="javascript:if(confirm('http://www.17gude.com/Service/xiaoliang.asp  \n\n该文件未被 Teleport Pro 下载，因为 该文件不可用或下载已被中止，或该工程已被停止。  \n\n你想要从服务器打开它吗?'))window.location='http://www.17gude.com/Service/xiaoliang.asp'" tppabs="http://www.17gude.com/Service/xiaoliang.asp">我要销量</a></li>
+                <li><a href="javascript:if(confirm('http://www.17gude.com/Service/yongjin.asp  \n\n该文件未被 Teleport Pro 下载，因为 该文件不可用或下载已被中止，或该工程已被停止。  \n\n你想要从服务器打开它吗?'))window.location='http://www.17gude.com/Service/yongjin.asp'" tppabs="http://www.17gude.com/Service/yongjin.asp">我要佣金</a></li>
+     
+            </ul>
+        </div>
+    </div>
+</div>
+
+<b class="header-shadow"></b>
+
+
+<Script>
+	  function showTable(id,str){ 
+document.getElementById(id).style.display=document.getElementById(id).style.display=="block"?"none":"block";
+//document.getElementById(id).style.display=str;
+} 
+function Showsms(ShowID)
+{
+	//alert(ShowID);
+	document.getElementById("TimeList").style.display='none';
+	document.getElementById("PlaceList").style.display='none';
+	document.getElementById("ComeList").style.display='none';
+	if(ShowID!=null)
+	{
+	if(document.getElementById(ShowID).style.display=='none')
+	{
+	document.getElementById(ShowID).style.display='block';
+	}
+	else
+	{
+	document.getElementById(ShowID).style.display='none';
+	}
+	}
+
+}
+</Script>
+<div id="p-focus" class="a-mb15">
+    <div class="g-layout">
+        <!-- 面包屑 -->
+        <div class="crumb">
+            <a class="item" href="javascript:if(confirm('http://www.17gude.com/Service/Default.asp  \n\n该文件未被 Teleport Pro 下载，因为 该文件不可用或下载已被中止，或该工程已被停止。  \n\n你想要从服务器打开它吗?'))window.location='http://www.17gude.com/Service/Default.asp'" tppabs="http://www.17gude.com/Service/Default.asp" target="_blank">全部服务</a>
+            <b class="f-arr">&gt;</b>
+            <em class="item">当前项目</em>
+        </div>
+
+        <div class="service-view">
+            <span class="service-view-pic"><img src="img/service-view-shoucang.jpg" tppabs="http://www.17gude.com/Service/img/service-view-shoucang.jpg" alt="" width="208" height="208"/><b></b></span>
+            <div class="service-view-cnt">
+                <h1>人气收藏-提升排名和曝光</h1>
+                <div class="service-view-content">
+                    <!-- 内容插入在这里 -->
+                    收藏分为店铺收藏与宝贝收藏，收藏数的多少是一个店铺热度的衡
+量标准。在一定条件下，收藏数的多少足以动摇一个人购买您商品
+的欲望，哪怕是在同类店铺中，收藏数高的店铺往往曝光量要比其
+它同行要高许多。<!-- 内容结束 -->
+                </div>
+            </div>
+            <div class="service-view-order">
+               <div class="package-custom">
+                        <div class="item">
+                            <span>购买收藏 </span>
+                <form action="http://www.17gude.com/Service/shoucangok.asp?action=BuySC" method="post">
+                        <select Name="Fenlei" ID="Fenlei" style="width:163px;height:22px;">
+                            	  <option value="">请选择</option>
+
+<option value="1">50淘宝收藏，价格1元</option>	
+
+<option value="2">100淘宝收藏，价格1.9元</option>	
+
+<option value="3">200淘宝收藏，价格3.6元</option>	
+
+<option value="4">300淘宝收藏，价格5.4元</option>	
+
+<option value="5">400淘宝收藏，价格6.5元</option>	
+
+<option value="6">500淘宝收藏，价格8.5元</option>	
+
+<option value="7">1000淘宝收藏，价格17元</option>	
+
+<option value="8">2000淘宝收藏，价格33元</option>	
+
+<option value="9">5000淘宝收藏，价格84元</option>	
+</select>
+                    </div>
+
+
+                                     <div class="item">
+						<textarea name="Webhttp" wrap="off" id="Webhttp" style="width:160px; height:70px;overflow-x:hidden;overflow-y:hidden;color:#999999;"  onClick="this.value='';">输入宝贝或店铺地址,多个回车换行</textarea>
+                    <input class="btn" type="image" src="../platform/images/liuliang-buy-btn2.jpg" tppabs="http://www.17gude.com/platform/images/liuliang-buy-btn2.jpg"/>            
+ </div>
+					
+
+                </form>
+
+            </div>
+            </div>
+      </div>
+    </div>
+<br><br>
+
+<div id="p-content">
+    <div class="g-layout">
+        <div class="g-s215m760">
+            <div class="col-sub">
+                <div class="sub-box">
+                    <div class="ui-title"><h2 class="ui-title-tit"><img src="img/title-sevice.png" tppabs="http://www.17gude.com/Service/img/title-sevice.png" alt="热门服务"></h2></div>
+                    <div class="service-list">
+                        <ul>
+                            <li><a class="pic" href="tuoguan.asp.htm" tppabs="http://www.17gude.com/Service/tuoguan.asp" target="_blank"><img src="img/service1.png" tppabs="http://www.17gude.com/Service/img/service1.png" alt=""/></a><span>已有125人购买</span></li>
+                            <li><a class="pic" href="javascript:if(confirm('http://www.17gude.com/Service/tuoguan2.asp  \n\n该文件未被 Teleport Pro 下载，因为 该文件不可用或下载已被中止，或该工程已被停止。  \n\n你想要从服务器打开它吗?'))window.location='http://www.17gude.com/Service/tuoguan2.asp'" tppabs="http://www.17gude.com/Service/tuoguan2.asp" target="_blank"><img src="img/service2.png" tppabs="http://www.17gude.com/Service/img/service2.png" alt=""/></a><span>已有125人购买</span></li>
+                            <li><a class="pic" href="peixun.asp.htm" tppabs="http://www.17gude.com/Service/peixun.asp" target="_blank"><img src="img/service3.png" tppabs="http://www.17gude.com/Service/img/service3.png" alt=""/></a><span>已有125人购买</span></li>
+                            <li><a class="pic" href="javascript:if(confirm('http://www.17gude.com/Service/video.asp  \n\n该文件未被 Teleport Pro 下载，因为 该文件不可用或下载已被中止，或该工程已被停止。  \n\n你想要从服务器打开它吗?'))window.location='http://www.17gude.com/Service/video.asp'" tppabs="http://www.17gude.com/Service/video.asp" target="_blank"><img src="img/service4.png" tppabs="http://www.17gude.com/Service/img/service4.png" alt=""/></a><span>已有125人购买</span></li>
+                            <li><a class="pic" href="javascript:if(confirm('http://www.17gude.com/Service/IP.asp  \n\n该文件未被 Teleport Pro 下载，因为 该文件不可用或下载已被中止，或该工程已被停止。  \n\n你想要从服务器打开它吗?'))window.location='http://www.17gude.com/Service/IP.asp'" tppabs="http://www.17gude.com/Service/IP.asp" target="_blank"><img src="img/service5.png" tppabs="http://www.17gude.com/Service/img/service5.png" alt=""/></a><span>已有125人购买</span></li>
+                            <li><a class="pic" href="shoucang.asp.htm" tppabs="http://www.17gude.com/Service/shoucang.asp" target="_blank"><img src="img/service6.png" tppabs="http://www.17gude.com/Service/img/service6.png" alt=""/></a><span>已有125人购买</span></li>
+                            <li><a class="pic" href="javascript:if(confirm('http://www.17gude.com/Service/kefu.asp  \n\n该文件未被 Teleport Pro 下载，因为 该文件不可用或下载已被中止，或该工程已被停止。  \n\n你想要从服务器打开它吗?'))window.location='http://www.17gude.com/Service/kefu.asp'" tppabs="http://www.17gude.com/Service/kefu.asp" target="_blank"><img src="img/service7.png" tppabs="http://www.17gude.com/Service/img/service7.png" alt=""/></a><span>已有125人购买</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-main">
+                <div class="ui-tabs">
+                    <div class="ui-tabs-nav">
+                        <span class="ui-tabs-tri ui-tabs-tri-active">服务详情</span>
+                        <span class="ui-tabs-tri">购买记录</span>
+                       
+                    </div>
+                    <div class="ui-tabs-crop">
+                        <div class="ui-tabs-cnt">
+                            <!-- 服务详情 -->
+                            <div class="ui-tabs-panel">
+                                <div class="sevice-detail">
+                                    <img src="img/service_detail/shoucang_01.jpg" tppabs="http://www.17gude.com/Service/img/service_detail/shoucang_01.jpg" alt=""/>
+                                    <img src="img/service_detail/shoucang_02.jpg" tppabs="http://www.17gude.com/Service/img/service_detail/shoucang_02.jpg" alt=""/>
+                                    <img src="img/service_detail/shoucang_03.jpg" tppabs="http://www.17gude.com/Service/img/service_detail/shoucang_03.jpg" alt=""/>
+                                    <img src="img/service_detail/shoucang_04.jpg" tppabs="http://www.17gude.com/Service/img/service_detail/shoucang_04.jpg" alt=""/>
+                                    <img src="img/service_detail/shoucang_05.jpg" tppabs="http://www.17gude.com/Service/img/service_detail/shoucang_05.jpg" alt=""/>
+                                    <img src="img/service_detail/shoucang_06.jpg" tppabs="http://www.17gude.com/Service/img/service_detail/shoucang_06.jpg" alt=""/>
+
+                  
+                                </div>
+                            </div>
+
+                            <!-- 成功案例 -->
+                
+
+                            <!-- 服务反响 -->
+                            <div class="ui-tabs-panel">
+                                <div class="sevice-detail">
+                                <div class="thgmjl1"> 
+
+									 
+								</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="p-footer">
+    <div class="g-layout">
+        <div class="footer-infos">
+            <p> Copyright &copy; 2009 - 2013 17GuDe ALL Rights Reserved </p>
+        </div>
+        <ul class="footer-nav">
+            <li><a href="../17gude/About.asp.htm" tppabs="http://www.17gude.com/17gude/About.asp">关于我们</a></li>
+            <li><a href="../17gude/media.asp.htm" tppabs="http://www.17gude.com/17gude/media.asp">媒体报道</a></li>
+            <li><a href="../Note.asp.htm" tppabs="http://www.17gude.com/Note.asp">谷得网规则</a></li>
+            <li><a href="../bz/index.htm" tppabs="http://www.17gude.com/bz/">帮助中心</a></li>
+            <li><a href="javascript:if(confirm('http://www.yaodamai.com/  \n\n该文件未被 Teleport Pro 下载，因为 它位于起始地址以设置的边界以外的域或路径中。  \n\n你想要从服务器打开它吗?'))window.location='http://www.yaodamai.com/'" tppabs="http://www.yaodamai.com/" target="_blank">资料查询</a></li>
+        </ul>
+    </div>
+</div>
+
+<style>
+#sideBuoy { position: fixed; _position: absolute; z-index: 9; top: 205px; _top: expression(205+documentElement.scrollTop +"px"); left: 50%; width: 81px; height: 173px; margin-left: 500px; background: #82cbec url(/images1/sideBuoy-qq.jpg) no-repeat 0 30px;}
+.sideBuoy-jy { display: block; width: 100%; height: 30px; text-align: center; line-height: 30px;}
+.sideBuoy-qq { display: block; width: 100%; height: 112px;}
+.sideBuoy-top { display: block; width: 100%; height: 31px; text-align: center; line-height: 30px;}
+.sideBuoy-detail { display: none; position: absolute; left: -156px; top: 0; overflow: hidden; width: 156px; height: 173px; background: #ffeeda; text-align: center;}
+.sideBuoy-detail .qq-list { padding: 8px 0 10px;}
+.sideBuoy-detail .qq { height: 22px; padding: 5px 0; line-height: 22px;}
+.sideBuoy-detail .qq img { vertical-align: middle;}
+</style>
+<div id="sideBuoy">
+    <a class="sideBuoy-jy" href="/help/viewreturn.asp" tppabs="/help/viewreturn.asp" target="_blank">我有建议</a>
+    <a class="sideBuoy-qq" href="#"></a>
+    <a class="sideBuoy-top" href="#">返回顶部</a>
+    <div class="sideBuoy-detail">
+        <div class="qq-list" ID="qqAllList"><div class="qq">新手在线咨询</div>
+<div class="qq">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" valign="middle"> <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=859680966&site=qq&menu=yes"><img src="http://wpa.qq.com/pa?p=1:594224603:41"  border="0"  /><BR />859680966</A></td>
+  </tr>
+</table>
+</div>
+</div>
+<br/><br/><div class="service-time">工作时间：9:00~21:00<br>
+非工作时间请给我们留言
+</div>
+    </div>
+</div>
+<script>
+var flag,
+    timer;
+$('.sideBuoy-qq').hover(function(){
+    flag = false;
+    //createqq();
+    $('.sideBuoy-detail').show();
+},function(){
+    flag = true;
+    timer = setTimeout(function(){
+        if(flag){
+            $('.sideBuoy-detail').hide();
+        }
+    },200) 
+})
+$('.sideBuoy-detail').hover(function(){
+    flag = false;
+    $(this).show();
+},function(){
+    var $self = $(this);
+    flag = true;
+    timer = setTimeout(function(){
+        if(flag){
+            $self.hide();
+        }
+    },200) 
+})
+</script>
+    <!--footer end-->
+
+
+</body>
+</html>

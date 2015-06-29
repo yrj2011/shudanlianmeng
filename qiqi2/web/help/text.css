@@ -1,0 +1,18 @@
+BODY {
+	FONT-SIZE: 14px; LINE-HEIGHT: 22px; FONT-FAMILY: "ËÎÌו", sans-serif, Arial; TEXT-DECORATION: none
+}
+.header {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 5px; PADDING-TOP: 10px
+}
+.blue12b {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0493c3; FONT-FAMILY: "ËÎÌו", sans-serif, Arial
+}
+.outline {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #cccccc 1px solid
+}
+.ps {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; COLOR: #ff6600; PADDING-TOP: 10px
+}
+.gs {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 10px
+}

@@ -1,0 +1,12 @@
+.text {
+	BORDER-RIGHT: #eee 1px solid; BORDER-TOP: #eee 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #eee 1px solid; COLOR: #333333; LINE-HEIGHT: 24px; BORDER-BOTTOM: #eee 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.text A {
+	BORDER-RIGHT: #eee 1px solid; BORDER-TOP: #eee 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #eee 1px solid; COLOR: #333333; LINE-HEIGHT: 24px; BORDER-BOTTOM: #eee 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.text A:visited {
+	BORDER-RIGHT: #eee 1px solid; BORDER-TOP: #eee 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #eee 1px solid; COLOR: #333333; LINE-HEIGHT: 24px; BORDER-BOTTOM: #eee 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.text A:hover {
+	COLOR: #ff6600; TEXT-DECORATION: underline
+}

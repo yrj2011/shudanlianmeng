@@ -1,0 +1,201 @@
+BODY {
+	BACKGROUND: repeat-x 0px 0px; MARGIN: 0px; FONT-FAMILY: ÐÂËÎÌå;
+}
+UNKNOWN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+.border {
+	BORDER-RIGHT: #7dabd5 1px solid; BORDER-TOP: #7dabd5 1px solid; BORDER-LEFT: #7dabd5 1px solid; BORDER-BOTTOM: #7dabd5 1px solid
+}
+.margintop {
+	MARGIN-TOP: 8px
+}
+A:link {
+	FONT-SIZE: 13px; COLOR: #2f5fa1; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 13px; COLOR: #2f5fa1; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 13px; COLOR: #2f5fa1; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: red; TEXT-DECORATION: none
+}
+.left {
+	PADDING-LEFT: 8px
+}
+.navwhite {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; LETTER-SPACING: 1px
+}
+.pd {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px
+}
+UL {
+	MARGIN: 0px
+}
+#wrap {
+	WIDTH: 280px; WORD-WRAP: break-word
+}
+.daohang {
+	
+}
+.daohang UL LI {
+	BACKGROUND-POSITION: right bottom; FONT-SIZE: 14px; FLOAT: left; BACKGROUND-IMAGE: url(/images/i.gif); WIDTH: 90px; COLOR: #ffffff; BACKGROUND-REPEAT: no-repeat; HEIGHT: auto; TEXT-ALIGN: center
+}
+#qingzuo LI {
+	LIST-STYLE-POSITION: inside; FONT-SIZE: 16px
+}
+.daohang A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.daohang A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.daohang A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.right {
+	PADDING-RIGHT: 8px
+}
+.left {
+	PADDING-LEFT: 8px
+}
+.navwhite {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; LETTER-SPACING: 1px
+}
+.date {
+	COLOR: #ff0000
+}
+.t003399 {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #4683ff
+}
+.ariticletopic {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; COLOR: #003366; PADDING-TOP: 10px
+}
+.ArticleContent {
+	FONT-SIZE: 14px; COLOR: #555; PADDING-TOP: 8px
+}
+.navtab {
+	CLEAR: both; HEIGHT: 26px
+}
+.navtab LI {
+	BORDER-RIGHT: #7dabd5 1px solid; BORDER-TOP: #7dabd5 1px solid; FLOAT: left; BORDER-LEFT: medium none; WIDTH: 73px; CURSOR: pointer; LINE-HEIGHT: 24px; BORDER-BOTTOM: #7dabd5 1px solid; HEIGHT: 24px; TEXT-ALIGN: center
+}
+.navtab .active {
+	FONT-WEIGHT: bold; BACKGROUND: #f8f9fc; BORDER-BOTTOM: #f8f9fc 1px solid
+}
+.navtab #tab_t1 {
+	BORDER-LEFT: #7dabd5 1px solid; WIDTH: 83px
+}
+.navContent {
+	CLEAR: both; BORDER-RIGHT: #7dabd5 1px solid; BORDER-TOP: medium none; BACKGROUND: #f8f9fc; MARGIN: 0px 0px 5px; BORDER-LEFT: #7dabd5 1px solid; BORDER-BOTTOM: #7dabd5 1px solid; HEIGHT: 176px
+}
+.navContent UL.textList {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 320px; PADDING-TOP: 8px
+}
+.navContent UL.textList LI {
+	CLEAR: both; PADDING-LEFT: 20px; BACKGROUND: url(/images/newsli.gif) no-repeat 10px 7px; LINE-HEIGHT: 22px; TEXT-ALIGN: left
+}
+.navContent UL.textList LI SPAN {
+	FLOAT: right
+}
+.navContent UL.ztlist {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 280px; PADDING-TOP: 5px
+}
+.navContent UL.ztlist LI {
+	PADDING-LEFT: 18px; BACKGROUND: url(/images/newsli.gif) no-repeat 10px 50%; FLOAT: left; OVERFLOW: hidden; WIDTH: 131px; LINE-HEIGHT: 22px; HEIGHT: 22px; TEXT-ALIGN: left
+}
+.navContent UL.list1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 280px; PADDING-TOP: 5px
+}
+.navContent UL.list1 LI {
+	CLEAR: both; PADDING-LEFT: 18px; BACKGROUND: url(/images/newsli.gif) no-repeat 10px 8px; LINE-HEIGHT: 22px; TEXT-ALIGN: left
+}
+.list {
+	FONT-SIZE: 14px
+}
+.list .rss {
+	BORDER-RIGHT: #cccccc 1px dashed; PADDING-RIGHT: 0px; BORDER-TOP: #cccccc 1px dashed; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; MARGIN: 3px; BORDER-LEFT: #cccccc 1px dashed; PADDING-TOP: 3px; BORDER-BOTTOM: #cccccc 1px dashed; POSITION: relative; HEIGHT: 20px
+}
+.list .rss .r {
+	RIGHT: 30px; POSITION: absolute
+}
+.list .rss LI {
+	LIST-STYLE-TYPE: circle
+}
+.clear {
+	CLEAR: both
+}
+.textcontents {
+	FONT-SIZE: 14px; COLOR: #000000; LINE-HEIGHT: 18pt
+}
+.textcontents A {
+	FONT-SIZE: 14px; COLOR: #000000; LINE-HEIGHT: 180%; TEXT-DECORATION: none
+}
+.textcontents A:link {
+	FONT-SIZE: 14px; COLOR: #000000; LINE-HEIGHT: 180%; TEXT-DECORATION: underline
+}
+.textcontents A:hover {
+	FONT-SIZE: 14px; COLOR: #000000; LINE-HEIGHT: 18px; TEXT-DECORATION: underline
+}
+.textcontents A:active {
+	FONT-SIZE: 14px; COLOR: #000000; LINE-HEIGHT: 180%; TEXT-DECORATION: underline
+}
+.textcontents A:visited {
+	FONT-SIZE: 14px; COLOR: #000000; LINE-HEIGHT: normal; TEXT-DECORATION: underline
+}
+.textcontents1 LI {
+	MARGIN-TOP: 5px; LIST-STYLE-POSITION: inside; FONT-SIZE: 13px; WIDTH: 100%; COLOR: #2f5fa1; LINE-HEIGHT: 180%; TEXT-DECORATION: none
+}
+.biankuang1 {
+	BORDER-RIGHT: #8fbce5 1px solid; BORDER-TOP: #8fbce5 1px solid; BORDER-LEFT: #8fbce5 1px solid; BORDER-BOTTOM: #8fbce5 1px solid
+}
+.normaltext {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 180%
+}
+.normaltext A {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 180%; TEXT-DECORATION: none
+}
+.normaltext A:hover {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 180%; TEXT-DECORATION: underline
+}
+.newstitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #000000; LINE-HEIGHT: 200%; LETTER-SPACING: 1pt
+}
+.newstext {
+	FONT-SIZE: 16px; COLOR: #000000; LINE-HEIGHT: 180%
+}
+.newstext A {
+	FONT-SIZE: 16px; COLOR: #000000; LINE-HEIGHT: 180%; TEXT-DECORATION: none
+}
+.newstext A:hover {
+	FONT-SIZE: 16px; COLOR: #000000; LINE-HEIGHT: 180%; TEXT-DECORATION: underline
+}
+.newstext A:active {
+	FONT-SIZE: 16px; COLOR: #000000; LINE-HEIGHT: 180%; TEXT-DECORATION: none
+}
+.newstext A:visited {
+	FONT-SIZE: 16px; COLOR: #000000; LINE-HEIGHT: 180%; TEXT-DECORATION: none
+}
+.titlebar {
+	FONT-SIZE: 14px; VERTICAL-ALIGN: middle; COLOR: #555; HEIGHT: 20px
+}
+.listcontents {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 200%
+}
+.listcontents A {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 200%; TEXT-DECORATION: none
+}
+.listcontents A:hover {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 200%; TEXT-DECORATION: underline
+}
+.greytitle {
+	HEIGHT: 28px; BACKGROUND-COLOR: #ededed
+}
+.listtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 200%; LETTER-SPACING: 1px
+}

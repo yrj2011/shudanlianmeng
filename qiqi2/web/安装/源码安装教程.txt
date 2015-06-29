@@ -1,0 +1,44 @@
+
+
+inc/index_conn.asp
+ MySQLUser="yitop90800" '连接数据库的用户名
+'---------------------------------
+MySqlPass="yitop90800" '连接数据库的密码
+'---------------------------------
+MySqlDb="yitop90800" '数据库名称
+
+
+
+3，还原根目录下的数据库备份包1.bak
+（注意：这个数据库备份包是mssql2005的，要清楚自己的数据库是不是这个类型的）
+
+
+
+http://你的域名/
+会员账号test  密码123456789
+操作码：778892
+
+后台地址:http://你的域名/chen/admin_login.asp 
+导入数据库之后登陆账号:admin  密码：admin
+
+
+不会安装的联系 官方QQ1662424999
+
+演示
+
+新推出新版官方源码 http://damai.shuadanbang.com
+
+asp  类型一 ：演示 www.renrenlai.com
+php完美源码 类型二：演示http://r.renrenlai.com/
+asp类型三：演示http://www.renrenlai.com/index9.asp
+php版类型四： 2015新版功能强大php源码演示www.xinxishequ.com
+asp 类型五：左左网 2015最新版功能强大左左网源码http://hh.comjz.com/
+asp类型六：另类新开发互动源码http://www.renrenlai.com/8.htm
+php版类型七 2015全网功能最强大可刷平台最多的互刷系统www.gancong.com（可刷 淘宝天猫 京东 阿里巴巴 1号店 拍拍 淘宝手机单 天猫手机单 京东手机单）
+
+aspx .net版 类型八 www.shuadanbang.com  全网最安全全部实名的互刷系统，永远不会被淘宝发现的互刷系统！功能非常强大！可以开通下级代理分站 让他们帮你赚钱！测试具体见 http://www.688880.com/wuhan/dzsw/305.html
+
+更多源码演示及测试账号见http://www.688880.com/chengxu.htm
+公司官方网站www.688880.com  第一源码交易平台www.diyiyuanma.com
+
+

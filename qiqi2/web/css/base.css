@@ -1,0 +1,238 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+PRE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+INPUT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TEXTAREA {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BLOCKQUOTE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TH {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+TABLE {
+	BORDER-COLLAPSE: collapse; border-spacing: 0
+}
+OL {
+	LIST-STYLE-TYPE: none
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+ADDRESS {
+	FONT-WEIGHT: 400; FONT-STYLE: normal
+}
+CAPTION {
+	FONT-WEIGHT: 400; FONT-STYLE: normal
+}
+CITE {
+	FONT-WEIGHT: 400; FONT-STYLE: normal
+}
+CODE {
+	FONT-WEIGHT: 400; FONT-STYLE: normal
+}
+DFN {
+	FONT-WEIGHT: 400; FONT-STYLE: normal
+}
+EM {
+	FONT-WEIGHT: 400; FONT-STYLE: normal
+}
+STRONG {
+	FONT-WEIGHT: 400; FONT-STYLE: normal
+}
+TH {
+	FONT-WEIGHT: 400; FONT-STYLE: normal
+}
+VAR {
+	FONT-WEIGHT: 400; FONT-STYLE: normal
+}
+
+#sitenav .info .a {
+	DISPLAY: inline-block; BACKGROUND: url(../images/ico/02.png) no-repeat left 9px; FLOAT: right; WIDTH: 12px; HEIGHT: 29px
+}
+.wrapper {
+	MARGIN: 0px auto; WIDTH: 965px; HEIGHT: auto; TEXT-ALIGN: left
+}
+#logo {
+	PADDING-LEFT: 20px; FLOAT: left; VERTICAL-ALIGN: middle; WIDTH: auto; HEIGHT: 87px
+}
+#thetime {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 100px; PADDING-TOP: 40px; HEIGHT: 40px
+}
+#quick_menu {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 270px; PADDING-TOP: 15px; HEIGHT: auto
+}
+#quick_menu UL {
+	FLOAT: right
+}
+#quick_menu UL LI {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 25px; FLOAT: left; PADDING-BOTTOM: 0px; COLOR: #285405; LINE-HEIGHT: 23px; PADDING-TOP: 0px; HEIGHT: 23px
+}
+#quick_menu UL #nav_index {
+	BACKGROUND: url(../images/ico/03.png) no-repeat; CURSOR: pointer
+}
+#quick_menu UL #nav_favorite {
+	BACKGROUND: url(../images/ico/04.png) no-repeat; CURSOR: pointer
+}
+#quick_menu UL #nav_qqgroup {
+	BACKGROUND: url(../images/ico/05.png) no-repeat; CURSOR: pointer
+}
+#quick_menu DIV {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; PADDING-TOP: 10px
+}
+.pagealltop {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/topbga.gif) repeat-x left top; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 155px
+}
+.page {
+	CLEAR: both; MARGIN-LEFT: auto; WIDTH: 910px; MARGIN-RIGHT: auto; HEIGHT: auto
+}
+.page100 {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: auto
+}
+.page:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.page {
+	
+}
+ HTML .page {
+	HEIGHT: 1%
+}
+.page {
+	DISPLAY: block
+}
+.menudiv {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 965px; PADDING-TOP: 0px; HEIGHT: 66px
+}
+.menu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 965px; PADDING-TOP: 0px; HEIGHT: 32px
+}
+.menul {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/menuleft.gif) no-repeat left top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 20px; PADDING-TOP: 0px; HEIGHT: 32px
+}
+.menuc {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/menucenter.gif) repeat-x left top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 925px; PADDING-TOP: 0px; HEIGHT: 32px
+}
+.menur {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/menuright.gif) no-repeat right top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 20px; PADDING-TOP: 0px; HEIGHT: 32px
+}
+.menutab {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 925px; PADDING-TOP: 0px; HEIGHT: 32px
+}
+.menutab UL {
+	MARGIN: 0px 0px 0px 5px
+}
+.menutab UL LI {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 4px; BACKGROUND: url(../images/menuge.gif) no-repeat right 1px; FLOAT: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 32px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.menutab UL LI.current {
+	LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+.menutab UL LI A {
+	DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #fff; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+.menutab UL LI A:hover {
+	DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #fff; LETTER-SPACING: 1px; TEXT-DECORATION: underline
+}
+.menutab UL A:hover {
+	BACKGROUND: url(../images/menuStat.gif) no-repeat left -75px
+}
+.menutab UL A:hover SPAN {
+	BACKGROUND: url(../images/menuStat.gif) no-repeat right -112px
+}
+.menutab UL LI.current A {
+	BACKGROUND: url(../images/menuStat.gif) no-repeat left 3px; COLOR: #006697
+}
+.menutab UL LI.current A:hover {
+	BACKGROUND: url(../images/menuStat.gif) no-repeat left 3px; COLOR: #006697
+}
+.menutab UL LI A SPAN {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; CURSOR: pointer; PADDING-TOP: 0px
+}
+.menutab UL LI.current A SPAN {
+	BACKGROUND: url(../images/menuStat.gif) no-repeat right -36px; PADDING-TOP: 2px
+}
+.menutab UL LI.current A:hover SPAN {
+	BACKGROUND: url(../images/menuStat.gif) no-repeat right -36px; PADDING-TOP: 2px
+}
+.menutab UL LI.myhappy {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.menud {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 965px; PADDING-TOP: 0px; HEIGHT: 34px
+}
+.menudl {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/menu2left.gif) no-repeat left top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 20px; PADDING-TOP: 0px; HEIGHT: 34px
+}
+.menudc {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/menu2center.gif) repeat-x left top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 925px; PADDING-TOP: 0px; HEIGHT: 34px
+}
+.menudr {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/menu2right.gif) no-repeat right top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 20px; PADDING-TOP: 0px; HEIGHT: 34px
+}
+.menud2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 35px; BACKGROUND: url(../images/ico/icon.gif) no-repeat 10px -210px; PADDING-BOTTOM: 0px; WIDTH: auto; COLOR: #656565; LINE-HEIGHT: 34px; PADDING-TOP: 0px; HEIGHT: 34px
+}
